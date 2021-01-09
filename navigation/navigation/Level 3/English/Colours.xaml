@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homescreenpage.jpg"
+             x:Class="navigation.English.Colours">
+    <ContentPage.Content>
+        <StackLayout Padding="0,800,0,0">
+            <ScrollView>
+                <StackLayout Spacing="200">
+
+                    <Image Source="red.png" Aspect="Fill" HeightRequest="505"/>
+                    
+                    <Image Source="blue.png" Aspect="Fill" HeightRequest="500"/>
+                    
+                    <Image Source="green.png" Aspect="Fill" HeightRequest="500"/>
+                    
+                    <Image Source="yellow.png" Aspect="Fill" HeightRequest="500"/>
+                    
+                    <Image Source="orange.png" Aspect="Fill" HeightRequest="500"/>
+
+                    <Image Source="grey.png" Aspect="Fill" HeightRequest="500"/>
+                    
+                    <Image Source="purple.png" Aspect="Fill" HeightRequest="500"/>
+                    
+                    <Image Source="brown.png" Aspect="Fill" HeightRequest="500"/>
+                    
+                    <Image Source="pink.png" Aspect="Fill" HeightRequest="500"/>
+                    
+
+
+                    <Image Source="black.png"/>
+                    <Label Text="Black" FontSize="Header" HorizontalOptions="Center"/>
+                    <Image Source="white.png"/>
+                    <Label Text="White" FontSize="Header" HorizontalOptions="Center"/>
+                    
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

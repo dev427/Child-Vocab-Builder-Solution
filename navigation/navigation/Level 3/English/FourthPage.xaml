@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="navigation.FourthPage"
+             BackgroundImageSource="homescreenpage.jpg"
+             Title="Letters">
+    <ContentPage.Content>
+        <StackLayout Padding="0,830,0,0" Spacing="0">
+
+                
+                    <Image Source="alphabet.png" Aspect="AspectFill" HeightRequest="170"/>
+                
+
+
+                <ScrollView>
+                    <StackLayout Spacing="0" >
+
+
+                    <Image Source="A.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="B.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="C.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="D.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="E.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="F.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="G.png" Aspect="AspectFit" HeightRequest="300"/>
+   
+                    <Image Source="H.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="I.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="J.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="K.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="L.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="M.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="N.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="O.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="P.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="Q.png" Aspect="AspectFit" HeightRequest="300"/>
+                        
+                    <Image Source="R.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="S.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="T.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="U.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="W.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="X.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="Y.png" Aspect="AspectFit" HeightRequest="300"/>
+
+                    <Image Source="Z.png" Aspect="AspectFit" HeightRequest="300"/>   
+
+                       
+                    
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        
+
+
+    </ContentPage.Content>
+</ContentPage>

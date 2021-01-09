@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="navigation.SecondPage"
+             BackgroundImageSource="homescreenpage.jpg"
+             Title="Shapes">
+
+
+
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            
+
+            <ScrollView>
+                <StackLayout Spacing="0">
+                    <Frame  Padding="0,0,30,0">
+                        <Grid Margin="20,0,20,0">
+                            <Image Source="circle.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Circle" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+
+                        </Grid>
+
+
+
+
+                    </Frame>
+
+                    <Frame Padding="0,0,30,0">
+
+                        <Grid Margin="20,0,20,0">
+                            <Image Source="triangle.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Triangle" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+
+                    </Frame>
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Heart.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Heart" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame Padding="0,0,30,0">
+
+                        <Grid Margin="20,0,20,0">
+                            <Image Source="Square.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Square" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Kite.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Diamond" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                          
+                        </Grid>
+                    </Frame>
+
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Arrow.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Arrow" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+
+                    </Frame>
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Crescent.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Crescent" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                          
+                        </Grid>
+                    </Frame>
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Cross.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Cross" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Heptagon.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Heptagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Hexagon.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Hexagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Octagon.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Octagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Oval.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Oval" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Pentagon.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Pentagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Rectangle.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Rectangle" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Star.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Star" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                            
+                        </Grid>
+                    </Frame>
+
+
+
+
+
+                    <Frame>
+
+                        <Grid >
+                            <Image Source="Trapzium.png" Aspect="AspectFit" HeightRequest="500"/>
+                            <Label Text="Trapzium" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+                           
+                        </Grid>
+                    </Frame>
+                    
+                    
+                    
+                    
+                    
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

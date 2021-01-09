@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="navigation.Level_1.Level1Home">
+    
+  <!--Pages can be added as references or inline-->
+    <ContentPage Padding="0,800,0,0" BackgroundImageSource="homescreenpage.jpg" Title="Blue" >
+        <Image  Source="blue.png" Aspect="Fill" HeightRequest="200"/>
+    </ContentPage>
+
+
+
+    <ContentPage Padding="0,800,0,0" BackgroundImageSource="homescreenpage.jpg" Title="Red">
+        <Image Source="red.png" Aspect="Fill" HeightRequest="200"/>
+    </ContentPage>
+
+
+    <ContentPage Title="Tab 3" />
+</TabbedPage>

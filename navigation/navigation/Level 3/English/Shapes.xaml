@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="navigation.English.Shapes"
+             BackgroundImageSource="homescreenpage.jpg">
+             
+    <ContentPage.Content>
+        <StackLayout Padding="0,830,0,0">
+            <ScrollView>
+                <StackLayout Padding="100,0,100,00">
+
+                    <Image Source="triangle.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Triangle" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+                    <Image Source="Heart.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Heart" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+                    <Image Source="circle.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Circle" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+
+                    <Image Source="Square.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Square" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+                    <Image Source="Kite.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Diamond" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+
+                    <Image Source="Arrow.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Arrow" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+
+                    <Image Source="Crescent.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Crescent" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+
+                    <Image Source="Cross.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Cross" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+                    <Image Source="Heptagon.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Heptagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+                    <Image Source="Hexagon.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Hexagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+                    <Image Source="Octagon.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Octagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+
+                    <Image Source="Oval.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Oval" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+                    <Image Source="Pentagon.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Pentagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+                    <Image Source="Rectangle.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Rectangle" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+
+                    <Image Source="Star.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Star" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+                    <Image Source="Pentagon.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Pentagon" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+
+                    <Image Source="Rhombus.png" Aspect="AspectFit" HeightRequest="360"/>
+                    <Label Text="Rhombus" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Center"/>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

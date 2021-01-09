@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="navigation.HomeScreenPage"
+             BackgroundImageSource="homescreenpage.jpg">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Name="MenuItem1" Order="Secondary" IconImageSource="hamburger.png" Text="Settings" Priority="0"/>
+
+        <ToolbarItem  Name="About" Order="Secondary" IconImageSource="Heading.png" Priority="1"/>
+
+        <ToolbarItem  Name="Exit" Order="Secondary"  IconImageSource="Heading.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
+
+
+
+        <ContentPage.Content>
+        <StackLayout>
+
+            <ffimageloading:SvgCachedImage HeightRequest="200" HorizontalOptions="End" Aspect="AspectFit" VerticalOptions="End" Source="sun.gif"/>
+
+            <Label Text="CHild Vocab V 1.4.4" FontSize="Header" TextColor="Red" 
+                VerticalOptions="Start" 
+                HorizontalOptions="Center" />
+
+            <Button Text="Level 1" Clicked="GoToLevel1HomeButtonClicked" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="End"/>
+            <Button Text="Level 2" Clicked="GoToLevel2HomeButtonClicked" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="End"/>
+            <Button Text="Level 3" Clicked="GoToLanguageButtonClicked" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="End"/>
+
+            <ffimageloading:SvgCachedImage HorizontalOptions="Start" Aspect="AspectFill" VerticalOptions="End" Source="bee.gif"/>
+
+            <Grid Padding="0,300,0,0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    
+                    
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                 
+
+
+                </Grid.ColumnDefinitions>
+
+
+                <ffimageloading:SvgCachedImage HeightRequest="300" Grid.Row="0" HorizontalOptions="CenterAndExpand" Aspect="AspectFill" VerticalOptions="Center" Source="skip.gif"/>
+
+                <ffimageloading:SvgCachedImage Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" Aspect="AspectFill" VerticalOptions="End" Source="blocks.gif"/>
+
+                
+
+                
+
+                <ffimageloading:SvgCachedImage Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" Aspect="AspectFill" VerticalOptions="End" Source="seesaw.gif"/>
+
+                <ffimageloading:SvgCachedImage Grid.Row="0" Grid.Column="2" HorizontalOptions="Start" Aspect="AspectFill" VerticalOptions="End" Source="skate.gif"/>
+
+            </Grid>
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

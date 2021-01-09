@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="navigation.FifthPage"
+             Title="Kleure">
+    <ContentPage.Content>
+        <StackLayout Background="white">
+
+            <Frame BackgroundColor="Green" Padding="14" CornerRadius="0">
+                <Label Text="Kleure" HorizontalTextAlignment="Center" TextColor="White" FontSize="Header"/>
+            </Frame>
+
+            <ScrollView>
+
+                <Grid BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Rooi"
+                    HorizontalOptions="Center"
+                   FontSize="Header"
+                    VerticalOptions="Center"/>
+                    <Image Source="red.png"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+                    <Label Grid.Row="0"
+                   Grid.Column="1"
+                   Text="Blou"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Header"/>
+
+                    <Image Source="blue.png"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+                    <Label Grid.Row="1"
+                   Grid.Column="0"
+                   Text="Geel"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Header"/>
+
+                    <Image Source="yellow.png"
+                   HorizontalOptions="Start"
+                   VerticalOptions="End"/>
+
+                    <Label Grid.Row="1"
+                   Grid.Column="1"
+                   Text="Groen"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Header"/>
+
+                    <Image Source="green.png"
+                   Grid.Column="1"
+                   HorizontalOptions="End"
+                   VerticalOptions="End"/>
+
+                    <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Text="Oranje"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"
+                   FontSize="Header"/>
+
+                    <Image Source="orange.png"
+                   Grid.Row="2"
+                   HorizontalOptions="End"
+                   VerticalOptions="Start"/>
+
+                    <Label Grid.Row="2"
+                   Grid.Column="1"
+                   Text="Bruin"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"
+                   FontSize="Header"/>
+
+                    <Image Source="brown.png"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+                    <Label Grid.Row="3"
+                   Grid.Column="0"
+                   Text="Swart"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"
+                   FontSize="Header"/>
+
+                    <Image Source="black.png"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+                    <Label Grid.Row="3"
+                   Grid.Column="1"
+                   Text="Wit"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"
+                   FontSize="Header"/>
+
+                    <Image Source="white.png"
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+                    <Label Grid.Row="4"
+                   Grid.Column="0"
+                   Text="Pers"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"
+                   FontSize="Header"/>
+
+                    <Image Source="purple.png"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+                    <Label Grid.Row="4"
+                   Grid.Column="1"
+                   Text="Pienk"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"
+                   FontSize="Header"/>
+
+                    <Image Source="pink.png"
+                   Grid.Row="4"
+                   Grid.Column="1"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+                    <Label Grid.Row="5"
+                   Grid.Column="0"
+                   Text="Grys"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"
+                   FontSize="Header"/>
+
+                    <Image Source="grey.png"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

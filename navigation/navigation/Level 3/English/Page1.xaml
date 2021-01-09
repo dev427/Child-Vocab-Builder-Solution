@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="navigation.Page1"
+             BackgroundImageSource="homescreenpage.jpg"
+             Title="Menu">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+
+            <ffimageloading:SvgCachedImage HeightRequest="200" HorizontalOptions="End" Aspect="AspectFit" VerticalOptions="End" Source="sun.gif"/>
+            
+            <Label Text="English" FontSize="Header" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button
+                Text="Shapes"
+                FontSize="40"
+                Clicked="GoShapesButtonClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+
+            <Button
+                Text="Colours"
+                FontSize="40"
+                Clicked="GoToColoursButtonClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+            <Button
+                Text="Alphabet"
+                FontSize="40"
+                Clicked="GoToAlphabetButtonClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+            <Button
+                Text="Numbers"
+                FontSize="40"
+                Clicked="GoToNumbersPageClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+
+          
+
+
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

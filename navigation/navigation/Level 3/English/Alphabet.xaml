@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homescreenpage.jpg"
+             x:Class="navigation.Level_3.English.Alphabet">
+    <ContentPage.Content>
+        <StackLayout Padding="0,800,0,0">
+            <ScrollView>
+               
+                    <StackLayout Padding="0,30,0,0">
+
+                    
+
+                        <Image Source="A.png" Aspect="AspectFit" HeightRequest="450"/>
+                        <Image Source="B.png" Aspect="AspectFit"/>
+                        <Image Source="C.png" Aspect="AspectFit"/>
+                        <Image Source="D.png" Aspect="AspectFit"/>
+                        <Image Source="E.png" Aspect="AspectFit"/>
+                        <Image Source="F.png" Aspect="AspectFit"/>
+                        <Image Source="G.png" Aspect="AspectFit"/>
+                        <Image Source="H.png" Aspect="AspectFit"/>
+                        <Image Source="I.png" Aspect="AspectFit"/>
+                        <Image Source="J.png" Aspect="AspectFit"/>
+                        <Image Source="K.png" Aspect="AspectFit"/>
+                        <Image Source="L.png" Aspect="AspectFit"/>
+                        <Image Source="M.png" Aspect="AspectFit"/>
+                        <Image Source="N.png" Aspect="AspectFit"/>
+                        <Image Source="O.png" Aspect="AspectFit"/>
+                        <Image Source="P.png" Aspect="AspectFit"/>
+                        <Image Source="Q.png" Aspect="AspectFit"/>
+                        <Image Source="R.png" Aspect="AspectFit"/>
+                        <Image Source="S.png" Aspect="AspectFit"/>
+                        <Image Source="T.png" Aspect="AspectFit"/>
+                        <Image Source="U.png" Aspect="AspectFit"/>
+                        <Image Source="V.png" Aspect="AspectFit"/>
+                        <Image Source="W.png" Aspect="AspectFit"/>
+                        <Image Source="X.png" Aspect="AspectFit"/>
+                        <Image Source="Y.png" Aspect="AspectFit"/>
+                        <Image Source="Z.png" Aspect="AspectFit"/>
+
+
+
+                    
+
+                </StackLayout>
+                
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

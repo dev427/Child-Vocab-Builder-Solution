@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="navigation.SixthPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+
+            <Frame BackgroundColor="White"  >
+                <Image Source="Heading.jpg" Aspect="AspectFill" HeightRequest="200"/>
+            </Frame>
+            <Frame  Padding="0,0,30,0" Background="white">
+                <Grid Margin="20,0,20,0">
+                    <Image Source="circle.png" Aspect="AspectFit" HeightRequest="500"/>
+                    <Label Text="Sirkel" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Start"/>
+                    <Button Text="Sirkel" Margin="600,150,140,20"/>
+
+                </Grid>
+
+
+
+
+            </Frame>
+
+            <Frame Padding="0,0,30,0" Background="White">
+
+                <Grid Margin="1,0,20,0">
+                    <Image Source="triangle.png" Aspect="AspectFit"  HeightRequest="500"  />
+                    <Label Text="Driehoek" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Start"/>
+                    <Button Text="Driehoek" Margin="600,150,140,20"/>
+                </Grid>
+
+            </Frame>
+
+            <Frame  Background="White">
+
+                <Grid >
+                    <Image Source="heart3.png" Aspect="AspectFit" HeightRequest="500"/>
+                    <Label Text="Hart" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Start"/>
+                    <Button Text="Hart" Margin="600,150,140,20"/>
+
+                </Grid>
+            </Frame>
+
+            <Frame Padding="0,0,30,0" Background="White">
+
+                <Grid Margin="1,0,20,0">
+                    <Image Source="square.jpg" Aspect="AspectFit" HeightRequest="500"/>
+                    <Label Text="Vierkante" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Start"/>
+                    <Button Text="Vierkante" Margin="600,150,140,20"/>
+                </Grid>
+            </Frame>
+
+
+
+
+
+
+            <Frame  Background="White">
+
+                <Grid >
+                    <Image Source="Diamond.png" Aspect="AspectFit" HeightRequest="500"/>
+                    <Label Text="Diamant" TextColor="Black" FontSize="Header" VerticalOptions="End" HorizontalOptions="Start"/>
+                    <Button Text="Diamant" Margin="600,150,140,20"/>
+                </Grid>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

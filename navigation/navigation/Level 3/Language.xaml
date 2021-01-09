@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="navigation.Language"
+             BackgroundImageSource="languagehome.jpg">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <ffimageloading:SvgCachedImage HeightRequest="200" HorizontalOptions="End" Aspect="AspectFit" VerticalOptions="End" Source="sun.gif"/>
+
+            <Label Text="Choose Your Language" FontSize="Header" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <Button
+                Text="English"
+                FontSize="40"
+                Clicked="GoToPage1ButtonClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="End"
+                HorizontalOptions="Center"/>
+
+            <Button
+                Text="Afrikaans"
+                FontSize="40"
+                Clicked="GoToAfrikaansButtonClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

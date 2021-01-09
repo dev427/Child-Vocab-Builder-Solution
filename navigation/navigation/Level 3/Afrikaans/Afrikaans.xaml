@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homescreenpage.jpg"
+             x:Class="navigation.Afrikaans">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+           
+
+            <Label Text="Afrikaans" FontSize="Header" HorizontalOptions="Center"/>
+            <Button
+                Text="Kleure"
+                FontSize="40"
+                Clicked="GoToFifthPageButtonClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+            <Button
+                Text="Vorms"
+                FontSize="40"
+                Clicked="GoToSixthPageButtonClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+
+            <Button
+                Text="Alfabet"
+                FontSize="40"
+                Clicked="GoToSeventhPageButtonClicked"
+                HeightRequest="60"
+                WidthRequest="750"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
