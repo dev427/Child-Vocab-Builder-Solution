@@ -4,7 +4,20 @@
              x:Class="navigation.Level_2.Level2HomeDetail"
              BackgroundImageSource="homescreenpage.jpg"
              Title="Level 2">
-  <StackLayout Padding="10">
-    <Label Text="Language"/>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Name="MenuItem1" Order="Secondary" IconImageSource="hamburger.png" Text="Settings" Priority="0"/>
+
+        <ToolbarItem  Name="About" Order="Secondary" IconImageSource="Heading.png" Priority="1"/>
+
+        <ToolbarItem  Name="Exit" Order="Secondary"  IconImageSource="Heading.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
+
+
+
+
+
+    <StackLayout Padding="10">
+    <Label Text="Level 2" FontSize="Header" VerticalOptions="Center" HorizontalOptions="Center"/>
   </StackLayout>
 </ContentPage>

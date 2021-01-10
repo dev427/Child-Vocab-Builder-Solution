@@ -16,7 +16,7 @@ namespace navigation.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             
-
+            
             base.OnCreate(savedInstanceState);
 
             CachedImageRenderer.Init(true);

@@ -30,7 +30,6 @@
                 VerticalOptions="Center"
                 HorizontalOptions="Center"/>
 
-            
-        </StackLayout>
+           </StackLayout>
     </ContentPage.Content>
 </ContentPage>

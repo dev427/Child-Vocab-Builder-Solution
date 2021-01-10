@@ -4,16 +4,16 @@
              x:Class="navigation.Level_1.Level1Home">
     
   <!--Pages can be added as references or inline-->
-    <ContentPage Padding="0,800,0,0" BackgroundImageSource="homescreenpage.jpg" Title="Blue" >
-        <Image  Source="blue.png" Aspect="Fill" HeightRequest="200"/>
+    <ContentPage Padding="0,800,0,0" BackgroundImageSource="homescreenpage.jpg" Title="Lullaby" >
+        
     </ContentPage>
 
 
 
-    <ContentPage Padding="0,800,0,0" BackgroundImageSource="homescreenpage.jpg" Title="Red">
-        <Image Source="red.png" Aspect="Fill" HeightRequest="200"/>
+    <ContentPage Padding="0,800,0,0" BackgroundImageSource="homescreenpage.jpg" Title="Nursery Ryhmes">
+        
     </ContentPage>
 
 
-    <ContentPage Title="Tab 3" />
+    <ContentPage Padding="0,800,0,0" BackgroundImageSource="homescreenpage.jpg" Title="Toys" />
 </TabbedPage>

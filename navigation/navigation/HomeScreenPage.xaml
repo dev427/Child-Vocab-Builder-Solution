@@ -29,6 +29,8 @@
 
             <ffimageloading:SvgCachedImage HorizontalOptions="Start" Aspect="AspectFill" VerticalOptions="End" Source="bee.gif"/>
 
+            
+
             <Grid Padding="0,300,0,0">
 
                 <Grid.RowDefinitions>
@@ -52,17 +54,21 @@
 
                 <ffimageloading:SvgCachedImage Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" Aspect="AspectFill" VerticalOptions="End" Source="blocks.gif"/>
 
-                
+
+
+
 
                 
-
                 <ffimageloading:SvgCachedImage Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" Aspect="AspectFill" VerticalOptions="End" Source="seesaw.gif"/>
 
-                <ffimageloading:SvgCachedImage Grid.Row="0" Grid.Column="2" HorizontalOptions="Start" Aspect="AspectFill" VerticalOptions="End" Source="skate.gif"/>
+                
+                <ffimageloading:SvgCachedImage Grid.Row="0" Grid.Column="2" HorizontalOptions="Start" Aspect="AspectFit" VerticalOptions="End" Source="skate.gif"/>
 
+                
             </Grid>
 
 
+            <Image Source="grass.png" Aspect="Fill" HeightRequest="200"/>
 
 
 
